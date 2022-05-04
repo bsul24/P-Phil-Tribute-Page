@@ -1,0 +1,122 @@
+body {
+    background: #347474;
+    font-family: georgia;
+    color: #ff7e67;
+  }
+  
+  hr {
+    height: 4px;
+    background-color: #ff7e67;
+    border: none;
+    margin-top: 6vh;
+    margin-bottom: 6vh;
+    margin-left: 15vw;
+    margin-right: 15vw;
+  }
+  
+  #header {
+    display: grid;
+    grid-template-columns: 1fr 1.5fr 1fr;
+    grid-template-rows: 1.7fr 1fr;
+    grid-template-areas: 
+      "pic1 title pic2"
+      "pic1 cap pic2";
+    border-style: solid;
+    border-width: 7px;
+    background: #35495e;
+    color: #ff7e67;
+    margin-top: 5vh;
+  }
+  
+  #title {
+    grid-area: title;
+    justify-self: center;
+    align-self: end;
+    text-align: center;
+    font-size: 4vmax;
+    color: #ff7e67;
+  }
+  
+  #cap {
+    grid-area: cap;
+    justify-self: center;
+    align-self: center;
+    text-align: center;
+    font-size: 1.5vmax;
+    color: #ff7e67;
+  }
+  
+  .header-pic-loc1 {
+    grid-area: pic1;
+    justify-self: center;
+    align-self: center;
+  }
+  
+  .header-pic-loc2 {
+    grid-area: pic2;
+    justify-self: center;
+    align-self: stretch;
+  }
+  #image {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: auto;
+    border-style: solid;
+    border-width: 3px;
+  }
+  
+  #header-image {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  #img-caption {
+    text-align: center;
+    font-size: .7vmax;
+  }
+  
+  #tribute-info {
+    border-style: solid;
+    border-color: #ff7e67;
+    border-width: 7px;
+    background: #42b883;
+    color: #35495e;
+    text-align: left;
+    font-size: .9vmax;
+    margin-left: 25vw;
+    margin-right: 25vw;
+  }
+  
+  #tribute-info-header {
+    text-align: center;
+    font-weight: bold;
+    font-size: 1vmax;
+    padding-top: 2vh;
+    padding-bottom: 3vh;
+  }
+  
+  #tribute-footer {
+    text-align: center;
+    margin-top: -2vh;
+    margin-bottom: 10vh;
+    font-size: .8vmax;
+  }
+  
+  #tribute-link {
+    font-weight: bold;
+  }
+  
+  ul {
+    list-style-position: outside;
+    margin-left: 2vw;
+    margin-right: 2vw;
+  }
+  
+  li {
+    padding-bottom: 2vh;
+  }
+  
+  a:hover {
+    color: turquoise;
+  }
