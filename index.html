@@ -1,56 +1,113 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Punxsutawney Phil Tribut Page</title>
-    <link rel="stylesheet" href="CSS\style.css">
-</head>
-  <body id="main">
-    <div id="header">
-      <div class="header-pic-loc1">
-        <img id="header-image" width="250px" src="https://www.groundhog.org/Files/Staff/thumb/thumb_landing_worldwide.jpg" alt="Groundhog picture">
-      </div>
-      <div id="title">
-        Punxsutawney Phil
-      </div>
-      <div id="cap">
-        The only groundhog with any answers
-      </div>
-      <div class="header-pic-loc2">
-        <img id="header-image" width="250px" src="https://www.groundhog.org/Files/Staff/thumb/thumb_landing_worldwide.jpg" alt="Groundhog picture">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Punxsutawney Phil Tribute Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="CSS\style.css" />
+  </head>
+  <body>
+    <header>
+      <p class="header-filler">filler</p>
+      <h1 class="header-title">Punxsutawney Phil</h1>
+      <p class="header-subtitle">The only groundhog with any answers</p>
+    </header>
+    <div class="info">
+      <div class="info-container">
+        <img
+          src="./images/philBeingHeld.jpg"
+          alt="Punxsutawney Phil being held up"
+          class="info-image"
+        />
+        <p class="info-caption">
+          Punxsutawney Phil ponders what he sees before him, the fate of
+          humanity (for the next six weeks) depending on him, as a member of the
+          Inner Council excitedly awaits his prophecies.
+        </p>
       </div>
     </div>
-    <hr>
-    <figure id="img-div">
-      <img id="image" class="main-image" width="1000px" src="https://wtop.com/wp-content/uploads/2020/02/AP_19033501440412-1-1880x1254.jpg" alt="Punxsutawney Phil held up by member of Inner Circle">
-      <br>
-      <figcaption id="img-caption">
-        Punxsutawney Phil ponders what he sees before him, the fate of humanity (for the next six weeks) depending on him, as a member of the Inner Council excitedly awaits his prophecies.
-      </figcaption>
-    </figure>
-    <hr>
-    <div id="tribute-info">
-      <div id="tribute-info-header">The following are a series of events in the storied groundhog's life:</div>
-      <ul>
-        <li><b>1886</b> - Born in Punxsutawney, Pennsylvania</li>
-        <li><b>1887</b> - Makes his first weather prediction, where he predicted a long winter</li>
-        <li><b>1889</b> - Fails to record a prediction for the first time (reasons unknown)</li>
-        <li><b>1890</b> - Makes his first early spring prediction</li>
-        <li><b>1893</b> - Turns seven years old, surpassing the average groundhog lifespan (six years)</li>
-        <li><b>1903</b> - Predicts a long winter, starting a run of 31 straight long winter predictions, the longest such streak</li>
-        <li><b>1942</b> - Unable to make an accurate prediction, as war clouds had blacked out part of the shadow</li>
-        <li><b>1943</b> - Did not make an appearance, likely related to the continuance of war</li>
-        <li><b>1986</b> - Turns 100 years old</li>
-        <li><b>1993</b> - Makes his first big screen appearance in the Bill Murray blockbuster movie <i>Groundhog Day</i></li>
-        <li><b>1995</b> - Following the success of <i>Groundhog Day</i>, he made an appearance on <i>The Oprah Winfrey Show</i></li>
-        <li><b>2021</b> - Due to the global COVID-19 pandemic, for the first time he made his prediction without a crowd present</li>
-        <li><b>2022</b> - Most recently predicted a long winter</li>
-      </ul>
-    </div>
-    <hr>
-    <div id="tribute-footer">
-      For additional information on the world's greatest groundhog, check out his <a href="https://en.wikipedia.org/wiki/Punxsutawney_Phil" target="_blank" id="tribute-link">Wikipedia page</a>
-    </div>
+    <main>
+      <h2 class="main-header">
+        The following are a series of events in the storied groundhog's life:
+      </h2>
+      <div class="main-content">
+        <ul class="main-list">
+          <li><strong>1886</strong> - Born in Punxsutawney, Pennsylvania</li>
+          <li>
+            <strong>1887</strong>
+            - Makes his first weather prediction, where he predicted a long
+            winter
+          </li>
+          <li>
+            <strong>1889</strong> - Fails to record a prediction for the first
+            time (reasons unknown)
+          </li>
+          <li>
+            <strong>1890</strong> - Makes his first early spring prediction
+          </li>
+          <li>
+            <strong>1893</strong> - Turns seven years old, surpassing the
+            average groundhog lifespan (six years)
+          </li>
+          <li>
+            <strong>1903</strong> - Predicts a long winter, starting a run of 31
+            straight long winter predictions, the longest such streak
+          </li>
+          <li>
+            <strong>1942</strong>
+            - Unable to make an accurate prediction, as war clouds had blacked
+            out part of the shadow
+          </li>
+          <li>
+            <strong>1943</strong>
+            - Did not make an appearance, likely related to the continuance of
+            war
+          </li>
+          <li><strong>1986</strong> - Turns 100 years old</li>
+          <li>
+            <strong>1993</strong>
+            - Makes his first big screen appearance in the Bill Murray
+            blockbuster movie <i>Groundhog Day</i>
+          </li>
+          <li>
+            <strong>1995</strong>
+            - Following the success of <i>Groundhog Day</i>, he made an
+            appearance on <i>The Oprah Winfrey Show</i>
+          </li>
+          <li>
+            <strong>2021</strong>
+            - Due to the global COVID-19 pandemic, for the first time he made
+            his prediction without a crowd present
+          </li>
+          <li><strong>2022</strong> - Most recently predicted a long winter</li>
+        </ul>
+        <div class="main-quote">
+          <p class="main-quote-content">
+            <i
+              >"Pitiful, a thousand people freezing their butts off waiting to
+              worship a rat."</i
+            >
+          </p>
+          <p><i>— Phil Connors, Groundhog Day</i></p>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <h2>
+        For additional information on the world's most relevant groundhog, check
+        out his
+        <a
+          href="https://en.wikipedia.org/wiki/Punxsutawney_Phil"
+          target="_blank"
+          >Wikipedia page</a
+        >
+      </h2>
+    </footer>
   </body>
 </html>
